@@ -1,0 +1,145 @@
+.block_2 {
+    height: 120vh;
+    width: 100%;
+    background-color: #161616;
+    position: relative;
+}
+
+.header_block_2 {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E0B0C;
+    font-family: "Aboreto-Regular";
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+}
+
+.fon_block_2 {
+    position: absolute;
+    bottom: 0;
+    height: 107vh; 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.fon_2 {
+    position: absolute;
+    bottom: 0;
+    height: 107vh; 
+    width: 100%;
+    filter: blur(6px);
+    animation: fon_block_1 3s linear 10ms infinite alternate;  
+}
+
+@keyframes fon_block_1 {
+    0% {
+        filter: brightness(100%)  contrast(100%) saturate(100%) blur(6px);
+
+    }
+    100% {
+        filter: brightness(140%)  contrast(140%) saturate(140%) blur(6px);
+        animation-timing-function: ease-out;
+    }
+    
+}
+
+.content_block_2 {
+    position: absolute;
+    height: 107vh; 
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: "Aladin-Regular";
+    src: url(../../assets/fonts/Aladin-Regular.ttf);
+}
+
+.text_content_block_2 {
+    width: 60%;
+    height: 107vh;
+    color: white;
+    font-size: 30px;
+    font-family: "Aladin-Regular";
+    
+}
+
+.text_content_block_2>p {
+    padding-left: 100px;
+    padding-top: 70px;
+    
+}
+
+.branch_content_block_2 {
+    position: relative;
+    width: 50%;
+    height: 107vh;
+    
+}
+
+#img1_block_2 {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    z-index: 1;
+    filter: drop-shadow(-20px 30px 50px #0E0B0C);
+}
+
+#img2_block_2 {
+    position: absolute;
+    top: 270px;
+    right: 450px;
+    z-index: 1;
+    filter: drop-shadow(-20px 30px 50px #0E0B0C);
+}
+
+#img3_block_2 {
+    position: absolute;
+    top: 580px;
+    right: 80px;
+    z-index: 1;
+    filter: drop-shadow(-20px 30px 50px #0E0B0C);
+}
+
+#img4_block_2 {
+    position: absolute;
+    bottom: 20px;
+    right: 450px;
+    z-index: 1;
+    filter: drop-shadow(-20px 30px 50px #0E0B0C);
+}
+
+
+.branch_block2 {
+    height: 120vh;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    filter: drop-shadow(-20px 30px 20px #0E0B0C);
+}
+
+.img_label {
+    height: 50vh;
+    position: relative;
+    filter: blur(2px) brightness(40%) contrast(350%) saturate(70%) 
+    drop-shadow(10px 10px 100px black) hue-rotate(90deg); 
+    
+}

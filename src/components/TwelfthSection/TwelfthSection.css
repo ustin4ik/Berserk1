@@ -1,0 +1,38 @@
+.block_12 {
+  height: 133vh;
+  width: 100%;
+  background-color: #0E0B0C;
+  position: relative;
+}
+
+.fon_block_12 {
+  position: absolute;
+  bottom: 0;
+  height: 107vh; 
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center; 
+}
+
+.fon_12 {
+  position: absolute;
+  bottom: 0;
+  height: 120vh; 
+  width: 100%;
+  filter: blur(4px);
+  animation: fon_block_12 4s linear 10ms infinite alternate;  
+}
+
+@keyframes fon_block_12 {
+  0% {
+    filter: brightness(50%) contrast(200%) saturate(100%);
+
+  }
+  100% {
+    filter: brightness(110%) contrast(160%) saturate(230%) hue-rotate(-0.02turn);
+
+    animation-timing-function: ease-out;
+  }  
+}

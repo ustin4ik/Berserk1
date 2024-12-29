@@ -1,0 +1,78 @@
+.block_1 {
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_1 {
+    position: absolute;
+    left: 0;
+    background-image: url(../../assets/pictures/first/image.jpeg);
+    background-size: cover;
+    height: 120vh;
+    width: 80%;
+    z-index: 0;
+    animation: krik 3s linear 10ms infinite alternate;
+}
+
+@keyframes krik {
+    0% {
+        filter: brightness(180%)  contrast(120%) saturate(100%);
+    }
+    100% {
+        filter: brightness(100%)  contrast(300%) saturate(300%);
+    }
+}
+
+@font-face {
+    font-family: "Aboreto-Regular";
+    src: url(../../assets/fonts/Aboreto-Regular.ttf);
+}
+
+.block_1>h2 {
+    margin-top: 390px;
+    font-family: "Aboreto-Regular";
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    font-size: 150px;
+    filter: drop-shadow(10px 10px 30px rgb(131, 0, 0));
+}
+
+.block_1>p {
+    margin-top: 1000px;
+    display: flex;
+    font-family: "Aboreto-Regular";
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+        filter: drop-shadow(5px 10px 30px rgb(131, 0, 0));
+}
+
+.label_1 {
+    position: absolute;
+}
+
+.vector_label_1 {
+    height: 120vh;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    filter: brightness(90%) saturate(120%) drop-shadow(-100px 0px 300px rgb(131, 0, 0));
+    animation: vector_1 3s linear 10ms infinite alternate; 
+
+}
+
+@keyframes vector_1 {
+    0% {
+        filter: brightness(100%)  contrast(100%) saturate(100%);
+    }
+    100% {
+        filter: brightness(120%)  contrast(200%) saturate(200%);
+    }
+}

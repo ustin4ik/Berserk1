@@ -1,0 +1,255 @@
+.block_3 {
+    height: 120vh;
+    width: 100%;
+    background-color: #161616;
+    position: relative;
+}
+
+.header_block_3 {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E0B0C;
+    font-family: "Aboreto-Regular";
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+}
+
+.fon_block_3 {
+    position: absolute;
+    bottom: 0;
+    height: 107vh; 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.fon_3 {
+    position: absolute;
+    bottom: 0;
+    height: 107vh; 
+    width: 100%;
+    filter: blur(6px);
+    animation: fon_block_3 3s linear 10ms infinite alternate;  
+}
+
+@keyframes fon_block_3 {
+    0% {
+        filter: brightness(70%)  contrast(100%) saturate(100%) blur(6px);
+
+    }
+    100% {
+        filter: brightness(130%)  contrast(130%) saturate(130%) blur(6px);
+        animation-timing-function: ease-out;
+    }
+    
+}
+
+.content_block_3 {
+    position: absolute;
+    height: 107vh; 
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: "Aladin-Regular";
+    src: url(fonts/Aladin-Regular.ttf);
+}
+
+.text_content_block_3 {
+    width: 60%;
+    height: 107vh;
+    color: white;
+    font-size: 30px;
+    font-family: "Aladin-Regular";
+}
+
+.text_content_block_3>p {
+    padding-left: 100px;
+    padding-top: 70px;
+    
+}
+
+.branch_content_block_3 {
+    position: relative;
+    width: 50%;
+    height: 107vh;
+    
+
+}
+
+
+
+
+
+#img5_block_2 {
+    position: absolute;
+    top: 30px;
+    left: -1000px;
+    z-index: 1;
+}
+
+#img6_block_2 {
+    position: absolute;
+    top: 210px;
+    left: -750px;
+    z-index: 1;
+}
+
+#img7_block_2 {
+    position: absolute;
+    top: 200px;
+    left: -200px;
+    z-index: 1;
+}
+
+#img8_block_2 {
+    position: absolute;
+    bottom: 470px;
+    left: 0px;
+    z-index: 1;
+}
+
+#img9_block_2 {
+    position: absolute;
+    bottom: 80px;
+    right: 715px;
+    z-index: 1;
+}
+
+#img10_block_2 {
+    position: absolute;
+    bottom: 250px;
+    left: 100px;
+    z-index: 1;
+}
+
+#img11_block_2 {
+    position: absolute;
+    bottom: 470px;
+    left: -400px;
+    z-index: 1;
+}
+
+#img12_block_2 {
+    position: absolute;
+    bottom: 250px;
+    left: -500px;
+    z-index: 1;
+}
+
+#img13_block_2 {
+    position: absolute;
+    bottom: 80px;
+    right: 925px;
+    z-index: 1;
+}
+
+.branch_block3_1 {
+    height: 120vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    filter: drop-shadow(-20px 30px 20px #0E0B0C);
+}
+
+.branch_block3_2 {
+    height: 120vh;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    z-index: 1;
+    filter: drop-shadow(-20px 30px 20px #0E0B0C);
+}
+
+#p1_block_2_js {
+  position: absolute;
+  top: -30px;
+  left: 500px;
+  z-index: 1;
+}
+
+#p2_block_2_js {
+  position: absolute;
+  top: 60px;
+  left: 500px;
+  z-index: 1;
+}
+
+#p3_block_2_js {
+  width: 600px;
+  position: absolute;
+  top: 200px;
+  right: 125px;
+  z-index: 1;
+}
+
+#p4_block_2_js {
+  width: 600px;
+  position: absolute;
+  top: 370px;
+  right: 30px;
+  z-index: 1;
+}
+
+#p5_block_2_js {
+  width: 600px;
+  position: absolute;
+  top: 570px;
+  right: 0px;
+  z-index: 1;
+}
+
+#p6_block_2_js {
+  width: 790px;
+  position: absolute;
+  top: 750px;
+  right: 0px;
+  z-index: 1;
+}
+
+.img_GatsRight {
+  height: 107vh;
+  position: absolute;
+  right: 0;
+ 
+  animation: GatsRight 3s linear 10ms infinite alternate;  
+}
+
+
+
+@keyframes GatsRight {
+    0% {
+        filter: brightness(100%)  contrast(100%) saturate(100%) blur(5px) drop-shadow(-40px 5px 30px black);
+
+    }
+    100% {
+        filter: brightness(150%)  contrast(270%) saturate(270%) blur(0px) drop-shadow(-40px 5px 30px black);
+        animation-timing-function: ease-out;
+    }
+    
+}
+
+.vector_label_3 {
+  height: 120vh;
+  position: absolute;
+  left: 0;
+  filter: drop-shadow(-200px 300px 150px black);  
+  
+}

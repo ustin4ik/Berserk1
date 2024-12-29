@@ -1,0 +1,139 @@
+.block_4 {
+
+  height: 120vh;
+  width: 100%;
+  background-color: #161616;
+  position: relative;
+
+}
+
+.header_block_4 {
+
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #0E0B0C;
+  font-family: "Aboreto-Regular";
+  font-size: 64px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+
+}
+
+.fon_block_4 {
+
+  position: absolute;
+  bottom: 0;
+  height: 107vh; 
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+    
+}
+
+.img_label {
+  height: 50vh;
+  position: relative;
+  filter: blur(2px) brightness(40%) contrast(350%) saturate(70%) 
+  drop-shadow(10px 10px 100px black) hue-rotate(90deg); 
+}
+
+.fon_4 {
+  position: absolute;
+  bottom: 0;
+  height: 107vh; 
+  width: 100%;
+  filter: blur(6px);
+  animation: fon_block_4 3s linear 10ms infinite alternate;  
+}
+
+@keyframes fon_block_4 {
+  0% {
+    filter: brightness(70%)  contrast(100%) saturate(100%) blur(6px);
+  }
+  100% {
+    filter: brightness(130%)  contrast(130%) saturate(130%) blur(6px);
+    animation-timing-function: ease-out;
+  }
+    
+}
+
+.content_block_4 {
+  position: absolute;
+  height: 107vh; 
+  width: 100%;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@font-face {
+  font-family: "Aladin-Regular";
+  src: url(fonts/Aladin-Regular.ttf);
+}
+
+.text_content_block_4 {
+  width: 70%;
+  height: 107vh;
+  color: white;
+  font-size: 30px;
+  font-family: "Aladin-Regular";
+}
+
+.text_content_block_4>p {
+  padding-left: 100px;
+  padding-top: 70px;
+    
+}
+
+.branch_content_block_4 {
+  position: relative;
+  width: 50%;
+  height: 107vh;
+}
+
+.branch_block4 {
+  height: 120vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  filter: drop-shadow(-20px 30px 20px #0E0B0C);
+}
+
+#img1_block_4 {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  z-index: 1;
+}
+
+#img2_block_4 {
+  position: absolute;
+  top: 210px;
+  right: 300px;
+  z-index: 1;
+}
+
+#img3_block_4 {
+  position: absolute;
+  top: 470px;
+  right: 390px;
+  z-index: 1;
+}
+
+#img4_block_4 {
+  position: absolute;
+  bottom: 20px;
+  right: 330px;
+  z-index: 1;
+}
